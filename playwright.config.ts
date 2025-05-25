@@ -20,7 +20,7 @@ export default defineConfig({
     },
     {
       command: 'node server_e2e.js',
-      port: 3000,
+      port: 3001,
       reuseExistingServer: !process.env.CI,
     },
   ],
